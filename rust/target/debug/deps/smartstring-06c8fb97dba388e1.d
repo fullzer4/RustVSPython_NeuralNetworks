@@ -1,0 +1,12 @@
+/home/fullzer4/Codes/projetos/RustVSPython_NeuralNetworks/rust/target/debug/deps/smartstring-06c8fb97dba388e1.rmeta: /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/lib.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/config.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/marker_byte.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/inline.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/boxed.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/casts.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/iter.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/ops.rs
+
+/home/fullzer4/Codes/projetos/RustVSPython_NeuralNetworks/rust/target/debug/deps/smartstring-06c8fb97dba388e1.d: /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/lib.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/config.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/marker_byte.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/inline.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/boxed.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/casts.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/iter.rs /home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/ops.rs
+
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/lib.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/config.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/marker_byte.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/inline.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/boxed.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/casts.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/iter.rs:
+/home/fullzer4/.cargo/registry/src/github.com-1ecc6299db9ec823/smartstring-1.0.1/src/ops.rs:
