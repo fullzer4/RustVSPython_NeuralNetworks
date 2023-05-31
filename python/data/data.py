@@ -3,7 +3,8 @@ import os
 
 def getdata():
     
-    data = pd.read_csv("local")
-
-    return data
+    dataTest = pd.read_csv("../../mnist/test.csv")
+    dataTrain = pd.read_csv("../../mnist/train.csv")
+    
+    return [dataTest, dataTrain]
 
