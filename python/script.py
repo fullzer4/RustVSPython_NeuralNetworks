@@ -3,7 +3,11 @@ from data.data import getdata
 def main():
 
     data = getdata()
-    
-    print(data)
+    # [0] test dataset
+    # [1] train dataset
+
+    print(data[1])
+
+
 
 main()

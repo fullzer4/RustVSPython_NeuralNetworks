@@ -3,8 +3,11 @@ import os
 
 def getdata():
     
-    dataTest = pd.read_csv("../../mnist/test.csv")
-    dataTrain = pd.read_csv("../../mnist/train.csv")
+    home = os.getcwd()
+
+    print(home)
+
+    dataTest = pd.read_csv(f"{home}/data/test.csv").to_numpy()
+    dataTrain = pd.read_csv(f"{home}/data/train.csv").to_numpy()
     
     return [dataTest, dataTrain]
-
