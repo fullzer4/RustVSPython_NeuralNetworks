@@ -1,19 +1,24 @@
 from data.data import getdata
+from func.func import init_params
 import numpy as np
-import pandas as pd 
 
 def main():
 
     data = getdata()
-    # [0] test dataset
-    # [1] train dataset
 
-    dataTest = np.array(data[0])
-    dataTrain = np.array(data[1])
+    data = np.array(data)
 
-    m, n = dataTrain.shape
-    np.random.shuffle(dataTrain)
+    m, n = data.shape
+    np.random.shuffle(data)
 
+    dataTest = data[0:1000].T
+    x_test = dataTest[1:n]
+    y_test = dataTest[0]
+
+    dataTrain = data[1000:m].T
+    x_train = dataTrain[1:n]
+    y_train = dataTrain[0]
     
+    W1, b1, W2, b2 = init_params()
 
 main()
