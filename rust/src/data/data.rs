@@ -1,19 +1,22 @@
-use polars::prelude::*;
+pub mod Data {
 
-pub fn getData() -> Result<(), Box<dyn std::error::Error>> {
-    let csv_path = "caminho";
+    use polars::prelude::*;
 
-    let data_train = CsvReader::from_path(../../mnist/train.csv)?
-        .infer_schema(None)
-        .has_header(true)
-        .finish()?;
+    pub fn getData() {
+        let csv_path = "caminho";
 
-    let data_test = CsvReader::from_path(../../mnist/train.csv)?
-        .infer_schema(None)
-        .has_header(true)
-        .finish()?;
+        let data_train = CsvReader::from_path("./train.csv")?
+            .infer_schema(None)
+            .has_header(true)
+            .finish()?;
 
-    println!("Data: {:?}", data);
+        let data_test = CsvReader::from_path("./train.csv")?
+            .infer_schema(None)
+            .has_header(true)
+            .finish()?;
 
-    return [data_train, data_test]
+        println!("Data: {:?}", data);
+
+        return [data_train, data_test]
+    }
 }
