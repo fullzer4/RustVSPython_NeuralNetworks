@@ -11,7 +11,7 @@ def RELU(Z):
     return np.maximum(0, Z)
 
 def deriv_RELU(Z):
-    return np.where(Z >= 0, 1, 0)
+    return np.where(Z > 0, 1, 0)
 
 def softmax(Z):
     e_Z = np.exp(Z - np.max(Z))  
@@ -61,6 +61,7 @@ def grad_descent(X, Y, iterations, alpha):
         dW1, db1, dW2, db2 = back_propagation(Z1, A1, Z2, A2, W2, X, Y)
         W1, b1, W2, b2 = update(W1, b1, W2, b2, dW1, db1, dW2, db2, alpha)
         if i % 10 == 0:
+            Z1, A1, Z2, A2 = fof_propagation(W1, b1, W2, b2, X) 
             print("Iteration: ", i)
-            print("Acurracy: ", get_accuracy(get_predictions(A2), Y))
+            print("Accuracy: ", get_accuracy(get_predictions(A2), Y))  
     return W1, b1, W2, b2

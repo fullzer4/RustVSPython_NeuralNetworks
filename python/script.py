@@ -19,7 +19,7 @@ def main():
     x_train = dataTrain[1:n]
     y_train = dataTrain[0]
     
-    W1, b1, W2, b2 = grad_descent(x_train, y_train, 100, 0.1)
+    W1, b1, W2, b2 = grad_descent(x_train, y_train, 1000, 0.001)
 
     def make_predictions(X, W1, b1, W2, b2):
         _, _, _, A2 = fof_propagation(W1, b1, W2, b2, X)
@@ -27,9 +27,9 @@ def main():
         return predictions
 
     def test_prediction(index, W1, b1, W2, b2):
-        current_image = x_train[:, index, None]
-        prediction = make_predictions(x_train[:, index, None], W1, b1, W2, b2)
-        label = y_train[index]
+        current_image = x_test[:, index, None]
+        prediction = make_predictions(x_test[:, index, None], W1, b1, W2, b2)
+        label = y_test[index]
         print("Prediction: ", prediction)
         print("Label: ", label)
 
